@@ -1,0 +1,48 @@
+body {
+  background: $off-white;
+}
+
+.wrapper {
+  max-width: $break-large;
+  margin: 0 auto;
+  
+  &.main {
+    padding: 10px;
+  }
+}
+
+.nav-main {
+  background-color: $sea-green;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+  }
+
+  a {
+    color: $white;
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    
+    &:hover {
+      @include prefix(transition, background .5s);
+      background: $teal-green;
+    }
+  
+  }
+}
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.heading {
+  margin-top: 150px;
+  text-align: center;
+}
