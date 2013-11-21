@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h5,p,a{
   border-bottom: 2px solid $light-yellow;
   color: $teal-green;
   font: {
+    size: 3em;
     weight: 600;
   }
   padding-bottom: 10px;
@@ -23,7 +24,7 @@ h1,h2,h3,h4,h5,h5,p,a{
 .wrapper {
   max-width: $break-large;
   margin: 0 auto;
-  margin-left: 300px;
+  margin-left: 275px;
   
   &.main {
     padding: 10px;
@@ -104,14 +105,17 @@ section {
 }
 
 .header {
-  background: $off-white;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   text-align: center;
   img {
-    width: 200px;
+    width: 275px;
   }
-  
+}
+
+.header-subhead {
+  color: $light-gray;
+  font-weight: 200;
 }
 
 .header-title {
