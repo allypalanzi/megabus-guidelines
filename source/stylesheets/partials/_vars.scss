@@ -2,10 +2,34 @@
 $white: #fff;
 $off-white: #f4f4f4;
 $sea-green: #2dba9f;
-$teal-green: #20826f;
+$teal-green: #2dba9f;
 $sea-blue: #0095a5;
 $teal-blue: #32aecb;
 $off-black: #2f2f2f;
+
+.off-white {
+  background: $off-white;
+}
+
+.sea-green {
+  background: $sea-green;
+}
+
+.teal-green {
+  background: $teal-green;
+}
+
+.sea-blue {
+  background: $sea-blue;
+}
+
+.teal-blue {
+  background: $teal-blue;
+}
+
+.off-black {
+  background: $off-black;
+}
 
 
 // BREAKPOINTS

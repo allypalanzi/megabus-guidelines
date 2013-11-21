@@ -1,1 +1,3 @@
-//= require_tree .
+$(".nav-toggle").click(function(){
+  $(".nav-main").toggleClass("nav-open");
+});
