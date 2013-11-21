@@ -1,10 +1,12 @@
 // Colors
 $white: #fff;
 $off-white: #f4f4f4;
-$sea-green: #2dba9f;
+$sea-green: #20826f;
 $teal-green: #2dba9f;
 $sea-blue: #0095a5;
 $teal-blue: #32aecb;
+$dark-yellow: #f3e240;
+$light-yellow: #f6ed81;
 $off-black: #2f2f2f;
 
 .off-white {
@@ -29,6 +31,14 @@ $off-black: #2f2f2f;
 
 .off-black {
   background: $off-black;
+}
+
+.dark-yellow {
+  background: $dark-yellow;
+}
+
+.light-yellow {
+  background: $light-yellow;
 }
 
 

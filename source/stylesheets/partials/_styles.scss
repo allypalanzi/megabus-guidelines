@@ -1,11 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+
 body {
   background: $white;
 }
 
-h1,h2,h3,h4,h5,h5,p {
+h1,h2,h3,h4,h5,h5,p,a{
+  font: {
+    family: 'lato', sans-serif;
+  }
   color: $off-black;
 }
 
+.section-header {
+  border-bottom: 2px solid $light-yellow;
+  color: $teal-green;
+  font: {
+    weight: 600;
+  }
+  padding-bottom: 10px;
+}
 .wrapper {
   max-width: $break-large;
   margin: 0 auto;
@@ -22,7 +36,7 @@ h1,h2,h3,h4,h5,h5,p {
 
 .nav-main {
   @include prefix(transition, width .2s);
-  background-color: $sea-green;
+  background-color: $teal-green;
   height: 100%;
   overflow: hidden;
   position: fixed;
@@ -34,7 +48,7 @@ h1,h2,h3,h4,h5,h5,p {
     
     &:hover {
       @include prefix(transition, background .5s);
-      background: $teal-green;
+      background: $sea-green;
     }
   }
 
@@ -56,7 +70,7 @@ h1,h2,h3,h4,h5,h5,p {
 }
 
 .nav-mobile {
-  background: $sea-green;
+  background: $teal-green;
   color: $white;
   display: none;
   width: 100%;
@@ -102,6 +116,10 @@ section {
 
 .header-title {
   text-align: center;
+}
+
+.subsection {
+  margin-left: 20px;  
 }
 
 .color-box {
