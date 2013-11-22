@@ -12,8 +12,14 @@ h1,h2,h3,h4,h5,h5,p,a{
   color: $off-black;
 }
 
+p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
 .section-header {
-  border-bottom: 2px solid $light-yellow;
+  border-bottom: 2px solid $light-gray;
   color: $teal-green;
   font: {
     size: 3em;
@@ -134,5 +140,15 @@ section {
   text-align: center;
   vertical-align: top;
   width: 100px;
+  text-align: center;
+  
+  @media(max-width:$break-medium) {
+    width: 95px;
+  }
+
+}
+
+.white-type {
+  color: #fff;
 }
 
