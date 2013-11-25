@@ -30,7 +30,7 @@ p {
 .wrapper {
   max-width: $break-large;
   margin: 0 auto;
-  margin-left: 20%;
+  margin-left: 300px;
   
   &.main {
     padding: 10px;
@@ -48,9 +48,7 @@ p {
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 15%;
-  max-width: 400px;
-  min-width: 250px;
+  width: 275px;
   li {
     list-style: none;
     border-bottom: 1px solid rgba(255,255,255,.2);
@@ -157,8 +155,15 @@ section {
 
 .logos {
   img {
-    width: 275px;
-    margin: 40px 10px 40px 0;
+    height: 80px;
+    padding: 40px;
+  }
+}
+
+.spacing {
+  img {
+    max-width: 400px;
+    width: 90%;
   }
 }
 
