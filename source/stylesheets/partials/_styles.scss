@@ -18,6 +18,18 @@ p {
   font-weight: 300;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
 .section-header {
   border-bottom: 2px solid $light-gray;
   color: $teal-green;
@@ -161,9 +173,87 @@ section {
 }
 
 .spacing {
+
+  h2 {
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
   img {
     max-width: 400px;
     width: 90%;
+    float: left;
+    @media(max-width: $break-large-medium) {
+      float: none;
+    }
+  }
+  p {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    @media(max-width: $break-large-medium) {
+      float: none;
+      width: 90%;
+      margin-left: 0;
+    }
+  }
+}
+
+.typography-faces {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+  }
+  margin-right: 20px;
+  width: 40%;
+  
+  @media(max-width: $break-large-medium) {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.lato-light {
+  h1, p {
+    font-weight: 300;
+  }
+}
+
+.lato-light-italic {
+  h1, p {
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+
+.lato-regular {
+  h1,p {
+    font-weight: 400;
+  }
+}
+
+.lato-italic {
+  h1,p {
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+.lato-bold {
+  h1,p {
+    font-weight: 700;
+  }
+}
+
+
+.lato-bold-italic {
+  h1,p {
+    font-weight: 700;
+    font-style: italic;
   }
 }
 
