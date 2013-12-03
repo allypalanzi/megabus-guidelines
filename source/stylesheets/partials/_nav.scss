@@ -1,0 +1,71 @@
+// Navigation
+
+.nav-main {
+  @include prefix(transition, width .2s);
+  background-color: $teal-green;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 275px;
+  li {
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    
+    &:hover {
+      @include prefix(transition, background .5s);
+      background: $sea-green;
+    }
+  }
+
+  a {
+    color: $white;
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    width: 250px;
+
+  
+  }
+
+  @media(max-width: $break-medium) {
+    width: 0px;
+    min-width: 0px;
+    top: 50px;
+    
+  }
+}
+
+.nav-mobile {
+  background: $teal-green;
+  color: $white;
+  display: none;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  @media(max-width: $break-medium) {
+    display: block;
+  }
+
+  li {
+    padding-left: 20px;
+    font: {
+      size: 30px;
+    }
+    line-height: 50px;
+  }
+}
+
+.nav-open {
+  @include prefix(transition, width .2s);
+  width: 100%;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  p {
+    max-width: 600px;
+  }
+}

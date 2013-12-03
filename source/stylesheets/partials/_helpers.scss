@@ -1,0 +1,61 @@
+.wrapper {
+  max-width: $break-large;
+  margin: 0 auto;
+  margin-left: 300px;
+  
+  &.main {
+    padding: 10px;
+  }
+
+  @media(max-width: $break-medium) {
+    margin-left: 0;
+  }
+}
+
+.off-white {
+  background: $off-white;
+}
+
+.sea-green {
+  background: $sea-green;
+}
+
+.teal-green {
+  background: $teal-green;
+}
+
+.sea-blue {
+  background: $sea-blue;
+}
+
+.teal-blue {
+  background: $teal-blue;
+}
+
+.off-black {
+  background: $off-black;
+}
+
+.dark-yellow {
+  background: $dark-yellow;
+}
+
+.light-yellow {
+  background: $light-yellow;
+}
+
+.light-gray {
+  background: $light-gray;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
