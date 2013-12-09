@@ -6,4 +6,4 @@ Building as a responsive middleman application in order to use this online style
 
 Currently in progress!
 
-View it live [here](http://allypalanzi.github.io/megabus-guidelines/).
+View it live [here](http://allypalanzi.com/live/megabus-styleguide/).
