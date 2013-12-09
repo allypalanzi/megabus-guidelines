@@ -9,43 +9,8 @@ $dark-yellow: #f3e240;
 $light-yellow: #f6ed81;
 $off-black: #2f2f2f;
 $light-gray: #bababa;
-
-.off-white {
-  background: $off-white;
-}
-
-.sea-green {
-  background: $sea-green;
-}
-
-.teal-green {
-  background: $teal-green;
-}
-
-.sea-blue {
-  background: $sea-blue;
-}
-
-.teal-blue {
-  background: $teal-blue;
-}
-
-.off-black {
-  background: $off-black;
-}
-
-.dark-yellow {
-  background: $dark-yellow;
-}
-
-.light-yellow {
-  background: $light-yellow;
-}
-
-.light-gray {
-  background: $light-gray;
-}
-
+$med-gray: #6d6e6e;
+$off-white: #f9f9f9;
 
 // BREAKPOINTS
 $break-small          : 450px;
@@ -55,3 +20,10 @@ $break-large          : 1100px;
 
 // GRIDS
 $collapse-grid-at     : $break-large;
+
+//TYPE
+
+$lato: "Lato";
+$sans-serif: helvetica, sans-serif;
+
+$main-type: $lato, $sans-serif;

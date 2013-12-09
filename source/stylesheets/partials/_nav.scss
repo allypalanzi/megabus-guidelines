@@ -2,6 +2,7 @@
 
 .nav-main {
   @include prefix(transition, width .2s);
+  @include prefix(transition, background 1s);
   background-color: $teal-green;
   height: 100%;
   overflow: hidden;
@@ -63,9 +64,12 @@
 }
 
 section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
   p {
     max-width: 600px;
   }
 }
+
+.nav-active {
+      @include prefix(transition, background .5s);
+      background: $sea-green;}

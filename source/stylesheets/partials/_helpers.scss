@@ -12,6 +12,50 @@
   }
 }
 
+%lato-light {
+  font: {
+    family: $main-type;
+    weight: 300;
+  }
+}
+
+%lato-light-italic {
+  font: {
+    family: $main-type;
+    weight: 300;
+    style: italic;
+  }
+}
+
+%lato-regular {
+  font: {
+    family: $main-type;
+    weight: 400;
+  }
+}
+
+%lato-italic {
+  font: {
+    family: $main-type;
+    weight: 400;
+    style: italic;
+  }
+}
+
+%lato-bold {
+  font: {
+    family: $main-type;
+    weight: 700;
+  }
+}
+
+%lato-bold-italic {
+  font: {
+    family: $main-type;
+    weight: 700;
+    style: italic;
+  }
+}
 .off-white {
   background: $off-white;
 }
@@ -46,6 +90,14 @@
 
 .light-gray {
   background: $light-gray;
+}
+
+.med-gray {
+  background: $med-gray;
+}
+
+.off-white {
+  background: $off-white;
 }
 
 .right {
